@@ -24,7 +24,9 @@ const forecast = (latitude, longitude, callback) => {
           body.current.temperature +
           " degrees out. It feels like " +
           body.current.feelslike +
-          " degrees out."
+          " degrees out. The wind speed is " +
+          body.current.wind_speed +
+          " k/pm."
       );
     }
   });
