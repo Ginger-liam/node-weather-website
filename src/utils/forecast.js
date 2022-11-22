@@ -20,11 +20,11 @@ const forecast = (latitude, longitude, callback) => {
       callback(
         undefined,
         body.current.weather_descriptions[0] +
-          ". It is currently " +
+          ". Het is " +
           body.current.temperature +
-          " degrees out. It feels like " +
+          " kkr heet. Voelt " +
           body.current.feelslike +
-          " degrees out. The wind speed is " +
+          " !!!! Het waait:  " +
           body.current.wind_speed +
           " k/pm."
       );
